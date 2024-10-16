@@ -1,67 +1,75 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>General PC Shop</title>
-    <link
-      href="https://fonts.googleapis.com/css2?family=Inter&display=swap"
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>General PC Shop</title>
+        <!--=============== REMIXICONS ===============-->
+	  <link
       rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.2.0/remixicon.css"
     />
-    <link rel="stylesheet" href="assets/css/styles.css" />
-  </head>
-  <body>
-    <header class="header" id="header">
-      <a href="Index.html">
-        <img class="logo" src="assets/img/Logo.png" alt="GPC" />
-      </a>
-      <div class="hamburger">
-        <div><span></span></div>
-        <div><span></span></div>
-        <div><span></span></div>
+  <!-- =============================== CSS =============================== -->
+  <link rel="stylesheet" href="assets/css/styles.css" />
+</head>
+<body>
+  <header class="header" id="header">
+    <nav class="nav container">
+      <a href="index.html"><img class="nav__logo" src="assets/img/Logo.png" alt="GPC" /></a>
+      <div class="nav-menu" id="nav-menu">
+          <ul class="nav__list">
+          <li><a class="nav-link" href="index.html">Home</a></li>
+          <li><a class="nav-link" href="about.html">About</a></li>
+          <li><a class="nav-link" href="contact.html">Contact</a></li>
+          <li><a class="nav-link" href="signUp.html">Sign Up</a></li>
+          </ul>
       </div>
-      <nav>
-        <ul class="nav-menu">
-          <li><a class="nav-link" href="Index.html">Home</a></li>
-          <li><a class="nav-link" href="About Us.html">About</a></li>
-          <li><a class="nav-link" href="Contact Us.html">Contact</a></li>
-          <li><a class="nav-link" href="Sign Up.html">Sign Up</a></li>
-        </ul>
-      </nav>
-    </header>
-    <main>
-      <div class="hero">
-        <!-- <img class="hero-img" src="assets/img/image-1.png" /> -->
-        <a href="Index.html"><img src="assets/img/Title.png" /></a>
-      </div>
-      <div class="middle"></div>
-      <div class="background">
-        <div class="contactUs">
-          <div class="contact" id="contact">
-            <h2>Contact Us</h2>
-            <p>For any concerns and suggestions</p>
-            <p>
-              email us at
-              <a class="links" href="mailto:cs@GpcShop.net">GpcShop.net</a>
-            </p>
-            <p>Or</p>
-            <p>Dial or text us at:</p>
-            <div class="number">
-              <div class="space">
-                <img src="assets/img/smart.png" alt="smart" />
-                <p>+63 9177717017 (Smart)</p>
-              </div>
-              <div>
-                <img src="assets/img/globe.png" alt=" globe" />
-                <p>+63 9495776201 (Globe)</p>
-              </div>
-            </div>
-          </div>
+      <!-- Close button -->
+      <div class="nav__close show-none" id="nav-close">
+          <i class="ri-close-large-line"></i>
         </div>
       </div>
-    </main>
-    <footer>
-      <p>© 2024 General PC Shop</p>
-    </footer>
-  </body>
+      <!-- Toggle button -->
+      <div class="nav__toggle" id="nav-toggle">
+        <i class="ri-menu-line"></i>
+      </div>
+    </nav>
+  </header>
+        <main class="main">
+            <div class="hero">
+                <!-- <img class="hero-img" src="assets/img/image-1.png" /> -->
+                <a href="Index.html"><img src="assets/img/Title.png" /></a>
+            </div>
+            <div class="middle"></div>
+            <div class="background">
+                <div class="contactUs">
+                    <div class="contact" id="contact">
+                        <h2>Contact Us</h2>
+                        <p>For any concerns and suggestions</p>
+                        <p>
+                            email us at
+                            <a class="links" href="mailto:cs@GpcShop.net"
+                                >GpcShop.net</a
+                            >
+                        </p>
+                        <p>Or</p>
+                        <p>Dial or text us at:</p>
+                        <div class="number">
+                            <div class="space">
+                                <img src="assets/img/smart.png" alt="smart" />
+                                <p>+63 9177717017 (Smart)</p>
+                            </div>
+                            <div>
+                                <img src="assets/img/globe.png" alt=" globe" />
+                                <p>+63 9495776201 (Globe)</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <footer>
+            <p>© 2024 General PC Shop</p>
+        </footer>
+    </body>
 </html>
