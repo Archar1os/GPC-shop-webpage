@@ -197,6 +197,10 @@ header {
 	border-radius: 8px;
 }
 
+.product h4 {
+	line-height: 35px;
+}
+
 .product:hover {
 	background-color: rgba(255, 255, 255, 1);
 	transition: 0.4s;
@@ -205,6 +209,7 @@ header {
 .product li {
 	font-size: 70%;
 	text-align: justify;
+	line-height: 14px;
 }
 
 .product ul {
@@ -215,6 +220,7 @@ header {
 	width: 337px;
 	height: 260px;
 	border-radius: 8px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.4s);
 }
 
 .background {
@@ -280,7 +286,7 @@ header {
 	z-index: 10;
 	display: flexbox;
 	text-align: center;
-	width: 50%;
+	width: 65%;
 	height: 100%;
 	background-color: rgba(255, 255, 255, 0.7);
 	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -296,11 +302,11 @@ header {
 	padding: 1.5rem;
 	display: flexbox;
 	margin: auto;
-	text-align: center;
+	text-align: left;
 	background-color: white;
 	border: 1px solid #d9d9d9;
 	border-radius: 8px;
-	max-width: 80%;
+	max-width: 64%;
 	min-width: 40%;
 	font-size: 16px;
 }
@@ -439,6 +445,12 @@ footer {
 	.nav-link {
 		padding: 8px 300px;
 	}
+	.signUp {
+		width: 80%;
+	}
+	.contact {
+		width: 80%;
+	}
 }
 
 @media screen and (min-width: 1150px) {
@@ -490,5 +502,8 @@ footer {
 	}
 	.signUp {
 		width: 90%;
+	}
+	#survey-form {
+		max-width: 90%;
 	}
 }
