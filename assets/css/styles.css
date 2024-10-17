@@ -271,7 +271,7 @@ header {
 }
 
 .space {
-	margin-right: 15%;
+	margin-right: 5%;
 }
 /* Sign Up CSS */
 .signUp {
@@ -280,8 +280,7 @@ header {
 	z-index: 10;
 	display: flexbox;
 	text-align: center;
-	max-width: 50%;
-	min-width: 30%;
+	width: 50%;
 	height: 100%;
 	background-color: rgba(255, 255, 255, 0.7);
 	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -434,6 +433,12 @@ footer {
 	.nav-link {
 		padding: 8px 400px;
 	}
+	.space {
+		margin: 0;
+	}
+	.nav-link {
+		padding: 8px 300px;
+	}
 }
 
 @media screen and (min-width: 1150px) {
@@ -479,5 +484,11 @@ footer {
 	}
 	.middle {
 		padding: 1rem 0;
+	}
+	.contact {
+		width: 90%;
+	}
+	.signUp {
+		width: 90%;
 	}
 }
