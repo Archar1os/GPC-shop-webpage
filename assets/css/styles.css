@@ -241,6 +241,7 @@ header {
 		padding: 1rem 0;
 	}
 }
+
 .product {
 	width: 400px;
 	height: 600px;
@@ -273,6 +274,16 @@ header {
 	width: 337px;
 	height: 260px;
 	border-radius: 8px;
+}
+@media screen and (max-width: 400px) {
+	.product {
+		width: 350px;
+		height: 500px;
+	}
+	.product img {
+		width: 300px;
+		height: 200px;
+	}
 }
 .background {
 	background-image: url("../img/image-9.png");
@@ -320,7 +331,7 @@ header {
 .number img {
 	width: 200px;
 	border-radius: 100%;
-	max-width: 100%;
+	max-width: 170%;
 	overflow: hidden;
 	height: 190px;
 	object-fit: scale-down;
