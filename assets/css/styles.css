@@ -57,7 +57,7 @@ body {
 
 a {
 	text-decoration: none;
-	color: white;
+	color: black;
 }
 
 /*=============== REUSABLE CSS CLASSES ===============*/
@@ -92,6 +92,7 @@ header {
 	margin: auto;
 	text-align: center;
 	padding: 8px;
+	color: white;
 }
 
 .nav-link:hover {
@@ -162,11 +163,12 @@ header {
 
 /* For large devices */
 @media screen and (max-width: 1150px) {
-	.hero {
+	/* .hero {
 		background-image: url("../img/hero-image-ipad.png");
-	}
+	} */
 	.hero img {
 		width: 40%;
+		margin-top: 5%;
 	}
 	.nav__toggle,
 	.nav__close {
@@ -193,7 +195,7 @@ header {
 	}
 }
 .hero {
-	margin-top: 7%;
+	margin-top: 6%;
 	background-image: url("../img/hero-image-desk.png");
 	background-size: cover;
 	padding: 2rem 0;
@@ -226,7 +228,7 @@ header {
 		margin-left: auto;
 		margin-right: auto;
 		padding: 1%;
-		background-color: rgb(255, 255, 255, 0.5);
+		background-color: rgb(255, 255, 255, 0.7);
 	}
 	.nav__toggle,
 	.nav__close {
@@ -270,6 +272,7 @@ header {
 .product img {
 	width: 337px;
 	height: 260px;
+	border-radius: 8px;
 }
 .background {
 	background-image: url("../img/image-9.png");
@@ -277,11 +280,6 @@ header {
 	padding: 2% 1%;
 	text-align: center;
 }
-
-/* .space {
-  margin: auto;
-  padding: auto;
-} */
 
 /* Contact CSS */
 .contactUs {
@@ -525,4 +523,17 @@ footer {
 	text-align: center;
 	padding: 1rem 0;
 	margin: 0;
+}
+
+.facebook {
+	background-color: white;
+	padding: 0;
+	border-radius: 50px;
+}
+
+footer img {
+	background-color: white;
+	padding: 0;
+	margin: 15px;
+	border-radius: 10px;
 }
