@@ -229,11 +229,41 @@ header {
 	padding: 2% 1%;
 	text-align: center;
 }
-
+/* About CSS */
+.about {
+	margin: auto;
+	padding: 20px;
+	z-index: 10;
+	display: flexbox;
+	width: 65%;
+	height: 50%;
+	background-color: rgba(255, 255, 255, 0.7);
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.about h2 {
+	margin-top: 0;
+	text-align: center;
+	font-weight: bolder;
+	letter-spacing: 1.5px;
+	font-size: 40px;
+}
+.about p {
+	margin: 2rem;
+	font-size: 25px;
+	line-height: 32px;
+	text-align: justify;
+}
+.about li {
+	margin: 2rem;
+	font-size: 25px;
+	line-height: 32px;
+	text-align: justify;
+}
 /* Contact CSS */
 .contactUs {
 	text-align: center;
 }
+
 .contact {
 	margin: auto;
 	padding: 20px;
@@ -425,6 +455,16 @@ footer {
 		padding: 0;
 		margin: auto;
 	}
+	.about h2,
+	.about h1 {
+		font-size: 25px;
+	}
+	.about p,
+	.about li {
+		font-size: 20px;
+		margin: 1rem;
+		text-align: center;
+	}
 }
 
 @media screen and (max-width: 1150px) {
@@ -449,6 +489,9 @@ footer {
 		width: 80%;
 	}
 	.contact {
+		width: 80%;
+	}
+	.about {
 		width: 80%;
 	}
 }
@@ -487,6 +530,11 @@ footer {
 		padding: 1%;
 		background-color: rgb(255, 255, 255, 0.7);
 	}
+	.about p,
+	.about li {
+		font-size: 20px;
+		margin: 1rem;
+	}
 	.nav__toggle,
 	.nav__close {
 		font-size: 36px;
@@ -498,6 +546,9 @@ footer {
 		padding: 1rem 0;
 	}
 	.contact {
+		width: 90%;
+	}
+	.about {
 		width: 90%;
 	}
 	.signUp {
